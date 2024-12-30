@@ -1,2 +1,2 @@
 console.log("hello world");
-process.exitCode = 1
+process.exitCode = 0

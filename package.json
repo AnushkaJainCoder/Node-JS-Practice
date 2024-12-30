@@ -19,5 +19,8 @@
   "homepage": "https://github.com/AnushkaJainCoder/Node-JS-Practice#readme",
   "devDependencies": {
     "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
   }
 }
