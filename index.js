@@ -6,7 +6,7 @@
 // console.log(_.chunk(arr));
 
 // const car = require("./car");
-const {data} = require("./car");
-console.log(data);
+const {ford, tesla} = require("./car");
+console.log(JSON.stringify(ford, null, 2));
 
 
