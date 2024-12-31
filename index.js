@@ -6,7 +6,17 @@
 // console.log(_.chunk(arr));
 
 // const car = require("./car");
-const {ford, tesla} = require("./car");
-console.log(JSON.stringify(ford, null, 2));
+const {ford, tesla} = require("./car")
+const replacer = (key, value) => {
+    if( key == "branch"){
+        return undefined;
+    }
+    return value;
+}
+
+;
+console.log(JSON.stringify(ford, replacer, 2));
+console.log(JSON.stringify(tesla, null, 2));
+
 
 
